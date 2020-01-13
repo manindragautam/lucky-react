@@ -52,7 +52,7 @@ mix
 // Docs: https://github.com/JeffreyWay/laravel-mix/tree/master/docs#readme
 //
 // mix.js(src, output);
-// mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
+mix.react('src/js/Root.jsx', 'public/js/app.js');
 // mix.preact(src, output); <-- Identical to mix.js(), but registers Preact compilation.
 // mix.coffee(src, output); <-- Identical to mix.js(), but registers CoffeeScript compilation.
 // mix.ts(src, output); <-- TypeScript support. Requires tsconfig.json to exist in the same folder as webpack.mix.js
